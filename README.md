@@ -1,45 +1,33 @@
-# Professional-README-Generator
+# Professional ReadMe Generator
 
-# User Story:
+## Description
+This project code dynamically creates a markdown Readme file utalising technology node.js-inquirer. User is prompted with questions regarding ReadMe information when the app is invoked.
 
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
 
-# Acceptance Criteria:
+## Installation
+npm install
 
-Create a command-line application that accepts user input.
+## Usage
+After npm install, invoke "node index.js".
 
-When a user is prompted for information about the application repository, a high-quality, professional README.md is generated with:
+## Contributing
+Tamsin Lloyd
 
-- The title of my project
+## Tests
+none
 
-- Sections entitled:
+## Questions
+TamsinLloyd99, This is my GitHub username, if you would like to view my code or other apps. If you have any questions, feel free to contact me at Tamsin_Lloyd@hotmail.com.
 
-- Description
+## License
+This project is licensed under the MIT license.
 
-- Table of Contents
-
-- Installation
-
-- Usage
-
-- License
-
-- Contributing
-
-- Tests
-
-- Questions
-
-When a user enters the project title, it's displayed as the title of the README.
-
-When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
-
-When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
-
-When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
-
-When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
-
-When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
+## Screenshot
+![]()
+<!-- add screenshot -->

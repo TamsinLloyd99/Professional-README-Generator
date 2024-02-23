@@ -21,16 +21,6 @@ const questions = [
         name: "description",
         message: "Please write a short description of your project."
     },
-    // {
-    //     type: "input",
-    //     name: "contents",
-    //     message: "Can you include a table of contents?"
-    // },
-    // {
-    //     type: "input",
-    //     name: "installation",
-    //     message: "What are the steps required to install your project?"
-    // },
     {
         type: "input",
         name: "usage",
@@ -74,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
         const markdown = generateMarkdown(answers);
-        writeToFile("tempReadME.md", markdown);
+        writeToFile("tempReaDME.md", markdown);
     })
 }
 

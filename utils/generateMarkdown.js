@@ -1,3 +1,11 @@
+//function to generate a badge
+function renderLicenseBadge(license) {
+    if (license !== "None") {
+        return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    }
+    return ''
+}
+
 // function to generate markdown for README
 function generateMarkdown(data) {
 return `# ${data.title}
@@ -28,6 +36,9 @@ ${data.tests}
 ${data.github}, This is my GitHub username, if you would like to view my code or other apps. If you have any questions, feel free to contact me at ${data.email}.
 
 ## License
+
+${renderLicenseBadge(data.license)}
+
 This project is licensed under the ${data.license} license.
 `;
 }
