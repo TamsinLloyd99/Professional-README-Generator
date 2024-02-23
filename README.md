@@ -29,5 +29,8 @@ TamsinLloyd99, This is my GitHub username, if you would like to view my code or 
 This project is licensed under the MIT license.
 
 ## Screenshot
-![]()
+![screenshot of sample](./images/READme%20Sample.png)
+
+## Video Link
+https://app.screencastify.com/v3/watch/l7RfzrRnDMFBsPJkF2fd 
 <!-- add screenshot -->
