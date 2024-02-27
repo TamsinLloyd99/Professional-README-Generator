@@ -33,7 +33,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-${data.github}, This is my GitHub username, if you would like to view my code or other apps. If you have any questions, feel free to contact me at ${data.email}.
+This is my GitHub profile: 'https://github.com/${data.github}', if you would like to view my code or other apps. If you have any questions, feel free to contact me at ${data.email}.
 
 ## License
 

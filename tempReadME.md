@@ -1,7 +1,7 @@
-# Weather Dashboard
+# Team-Member-Generator
 
 ## Description
-This project code dynamically creates a weather application utalising jquery and bootstrap. User is required to enter a city into the searchbar when the app is invoked.
+An application that generates a webpage that displays a team's basic info so that a user have quick access to their emails and GitHub profiles.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,19 +11,19 @@ This project code dynamically creates a weather application utalising jquery and
 - [License](#license)
 
 ## Installation
-None
+npm install
 
 ## Usage
-User to search a city using the searchbar and sould be able to revisit past searches saved as search history buttons.
+After npm install, invoke "node index.js"
 
 ## Contributing
 Tamsin Lloyd
 
 ## Tests
-None
+Jest Testing
 
 ## Questions
-TamsinLloyd99, This is my GitHub username, if you would like to view my code or other apps. If you have any questions, feel free to contact me at Tamsin_lloyd@hotmail.com.
+This is my GitHub profile: 'https://github.com/TamsinLloyd99', if you would like to view my code or other apps. If you have any questions, feel free to contact me at tamsin_lloyd@hotmail.com.
 
 ## License
 
